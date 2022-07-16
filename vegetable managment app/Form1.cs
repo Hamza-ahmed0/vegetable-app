@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
+using Newtonsoft.Json;
+
 
 namespace vegetable_managment_app
 {
@@ -91,8 +93,8 @@ namespace vegetable_managment_app
 
             if(User.IsEqual(curuser, resuser))
             {
-                VegetableApp real = new VegetableApp();
-                real.Show();
+                inventory inv = new inventory();
+                inv.Show();
                 this.Hide();
             }
 

@@ -25,3 +25,4 @@ D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable m
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.Registration_form.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable managment app.csproj.CopyComplete
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.Form1.resources
+D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.inventory.resources

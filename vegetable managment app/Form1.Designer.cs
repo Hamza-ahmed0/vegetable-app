@@ -114,6 +114,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.button2.Enabled = false;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowFrame;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
