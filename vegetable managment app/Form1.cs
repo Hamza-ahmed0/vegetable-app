@@ -93,8 +93,8 @@ namespace vegetable_managment_app
 
             if(User.IsEqual(curuser, resuser))
             {
-                inventory inv = new inventory();
-                inv.Show();
+                welcome wel = new welcome();
+                wel.Show();
                 this.Hide();
             }
 
