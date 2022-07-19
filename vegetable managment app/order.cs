@@ -33,6 +33,7 @@ namespace vegetable_managment_app
         public static String itqn = "";
         public static String itpr = "";
         public static String itdat = "";
+        public static String total = "";
         private void label4_Click(object sender, EventArgs e)
         {
 
@@ -121,19 +122,50 @@ namespace vegetable_managment_app
             enterQuan.Text = "";
             prcbx.Text = "";
 
-
-
-            var tot = Convert.ToInt32(totalQuan.Text);
-            var mnc = tot - b;
-            var Total = mnc.ToString();
-
-            item itm = new item()
-            {
-                quantity = Total
-            };
-
-            SetResponse set = client.Set(@"ItemList/" + itid, itm);
            
+
+            //sum of all order item price
+
+            var sum = listView1.Items.Cast<ListViewItem>().Sum(item => int.Parse(item.SubItems[3].Text));
+            label7.Text=sum.ToString();
+
+
+            total = label7.Text;
+
+           
+        }
+
+        private void bckbtn_Click(object sender, EventArgs e)
+        {
+            welcome wel = new welcome();
+            wel.Show();
+            this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void billprc_Click(object sender, EventArgs e)
+        {
+            bill bl = new bill();
+            bl.Show();
+            this.Hide();
+        }
+
+
+        //delte unneccesary items from list
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            foreach(ListViewItem eachItem in listView1.Items)
+            {
+                listView1.Items.Remove(eachItem);
+                var get = Convert.ToInt32(label7.Text);
+                var val = Convert.ToInt32(eachItem.SubItems[3].Text);
+                var resum = get - val;
+                label7.Text = resum.ToString();
+            }
         }
     }
 }
