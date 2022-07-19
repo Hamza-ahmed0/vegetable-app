@@ -172,9 +172,9 @@
             this.ORDRBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ORDRBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ORDRBTN.ForeColor = System.Drawing.Color.White;
-            this.ORDRBTN.Location = new System.Drawing.Point(272, 535);
+            this.ORDRBTN.Location = new System.Drawing.Point(312, 535);
             this.ORDRBTN.Name = "ORDRBTN";
-            this.ORDRBTN.Size = new System.Drawing.Size(128, 37);
+            this.ORDRBTN.Size = new System.Drawing.Size(113, 37);
             this.ORDRBTN.TabIndex = 48;
             this.ORDRBTN.Text = "ADD ORDER";
             this.ORDRBTN.UseVisualStyleBackColor = false;
@@ -325,9 +325,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(406, 535);
+            this.button1.Location = new System.Drawing.Point(431, 535);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 37);
+            this.button1.Size = new System.Drawing.Size(103, 37);
             this.button1.TabIndex = 58;
             this.button1.Text = "DELETE";
             this.button1.UseVisualStyleBackColor = false;

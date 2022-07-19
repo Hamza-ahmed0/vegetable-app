@@ -35,5 +35,12 @@ namespace vegetable_managment_app
 
             
         }
+
+        private void edt_Click(object sender, EventArgs e)
+        {
+            order ord = new order();
+            ord.Show();
+            this.Hide();
+        }
     }
 }

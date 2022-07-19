@@ -66,10 +66,10 @@ namespace vegetable_managment_app
 
                    
                 }
-                  
-                
-            
 
+
+
+            
 
 
         }
@@ -90,7 +90,7 @@ namespace vegetable_managment_app
             item itm = result.ResultAs<item>();
             itemid.Text = itm.id;
 
-            dataGridView1.Update();
+            dataGridView1.Refresh();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -98,6 +98,11 @@ namespace vegetable_managment_app
             welcome wel = new welcome();
             wel.Show();
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            dataGridView1.Refresh();
         }
     }
 }

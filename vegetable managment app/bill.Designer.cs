@@ -46,6 +46,8 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label5 = new System.Windows.Forms.Label();
+            this.chkot = new System.Windows.Forms.Button();
+            this.edt = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -213,11 +215,42 @@
             this.label5.TabIndex = 51;
             this.label5.Text = "label5";
             // 
+            // chkot
+            // 
+            this.chkot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.chkot.FlatAppearance.BorderSize = 0;
+            this.chkot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chkot.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkot.ForeColor = System.Drawing.Color.White;
+            this.chkot.Location = new System.Drawing.Point(446, 535);
+            this.chkot.Name = "chkot";
+            this.chkot.Size = new System.Drawing.Size(170, 37);
+            this.chkot.TabIndex = 53;
+            this.chkot.Text = "CHECK OUT";
+            this.chkot.UseVisualStyleBackColor = false;
+            // 
+            // edt
+            // 
+            this.edt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.edt.FlatAppearance.BorderSize = 0;
+            this.edt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.edt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.edt.ForeColor = System.Drawing.Color.White;
+            this.edt.Location = new System.Drawing.Point(346, 535);
+            this.edt.Name = "edt";
+            this.edt.Size = new System.Drawing.Size(94, 37);
+            this.edt.TabIndex = 54;
+            this.edt.Text = "EDIT";
+            this.edt.UseVisualStyleBackColor = false;
+            this.edt.Click += new System.EventHandler(this.edt_Click);
+            // 
             // bill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 584);
+            this.Controls.Add(this.edt);
+            this.Controls.Add(this.chkot);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox2);
@@ -261,5 +294,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button chkot;
+        private System.Windows.Forms.Button edt;
     }
 }

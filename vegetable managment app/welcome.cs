@@ -45,9 +45,7 @@ namespace vegetable_managment_app
 
         private void label8_Click(object sender, EventArgs e)
         {
-            stock stk = new stock();
-            stk.Show();
-            this.Hide();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -94,15 +92,32 @@ namespace vegetable_managment_app
 
         private void label6_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void plcordr_Click(object sender, EventArgs e)
+        {
+            order od = new order();
+            od.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             inventory inv = new inventory();
             inv.Show();
             this.Hide();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            order od = new order();
-            od.Show();
+            stock stk = new stock();
+            stk.Show();
             this.Hide();
         }
     }
