@@ -57,7 +57,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(-1, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(726, 27);
+            this.panel2.Size = new System.Drawing.Size(721, 27);
             this.panel2.TabIndex = 14;
             // 
             // label1
@@ -143,9 +143,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label4.Location = new System.Drawing.Point(32, 134);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 54);
+            this.label4.Size = new System.Drawing.Size(94, 36);
             this.label4.TabIndex = 45;
-            this.label4.Text = "TOTAL\r\nQUANTITY \r\n(in Kg):";
+            this.label4.Text = "TOTAL\r\nQUANTITY:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
@@ -248,7 +248,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(146, 37);
             this.button1.TabIndex = 52;
-            this.button1.Text = "BILL PROCESS";
+            this.button1.Text = "BIIL PROCEES";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // order

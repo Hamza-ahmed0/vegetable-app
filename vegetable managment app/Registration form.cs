@@ -96,10 +96,5 @@ namespace vegetable_managment_app
             shtextbx.Text = "";
             shaddtxtbx.Text = "";
         }
-
-        private void txtbxuser_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
