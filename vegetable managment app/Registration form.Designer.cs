@@ -90,6 +90,7 @@
             this.txtbxuser.Name = "txtbxuser";
             this.txtbxuser.Size = new System.Drawing.Size(218, 24);
             this.txtbxuser.TabIndex = 11;
+            this.txtbxuser.TextChanged += new System.EventHandler(this.txtbxuser_TextChanged);
             // 
             // passtextbx
             // 
