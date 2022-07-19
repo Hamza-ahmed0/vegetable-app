@@ -122,8 +122,9 @@ namespace vegetable_managment_app
             prcbx.Text = "";
 
 
-            var tot = Convert.ToInt32(totalQuan.ToString());
-            int mnc = tot - b;
+
+            var tot = Convert.ToInt32(totalQuan.Text);
+            var mnc = tot - b;
             var Total = mnc.ToString();
 
             item itm = new item()

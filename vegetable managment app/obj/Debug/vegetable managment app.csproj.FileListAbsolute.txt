@@ -29,34 +29,3 @@ D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_m
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.welcome.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.stock.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.order.resources
-D:\vegetable-app\vegetable managment app\bin\Debug\vegetable managment app.exe.config
-D:\vegetable-app\vegetable managment app\bin\Debug\vegetable managment app.exe
-D:\vegetable-app\vegetable managment app\bin\Debug\vegetable managment app.pdb
-D:\vegetable-app\vegetable managment app\bin\Debug\FireSharp.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\Newtonsoft.Json.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Extensions.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Primitives.dll
-D:\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.xml
-D:\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
-D:\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
-D:\vegetable-app\vegetable managment app\bin\Debug\Newtonsoft.Json.xml
-D:\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Extensions.xml
-D:\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Primitives.xml
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.App.config
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.AssemblyReference.cache
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.SuggestedBindingRedirects.cache
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.Form1.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.inventory.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.order.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.Properties.Resources.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.Registration_form.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.stock.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.welcome.resources
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.GenerateResource.cache
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.CoreCompileInputs.cache
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.CopyComplete
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.exe
-D:\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.pdb
