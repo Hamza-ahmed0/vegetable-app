@@ -42,5 +42,11 @@ namespace vegetable_managment_app
             ord.Show();
             this.Hide();
         }
+
+        private void chkot_Click(object sender, EventArgs e)
+        {
+            
+            this.Hide();
+        }
     }
 }

@@ -17,20 +17,20 @@ namespace vegetable_managment_app
 {
     public partial class Form1 : Form
     {
+        // Login Form
         public Form1()
         {
             InitializeComponent();
         }
 
+        // Firebase Integeration
         IFirebaseConfig con = new FirebaseConfig()
         {
             BasePath = "https://vegetable-app-8a45c-default-rtdb.asia-southeast1.firebasedatabase.app/",
             AuthSecret = "ghHuxkkGncDRdVq687pIk4cefeA8IAeFhkOBuG1q"
         };
-       
-    
+           
         IFirebaseClient client;
-
 
         Registration_form rgstrfrm = new Registration_form();
 
@@ -58,10 +58,6 @@ namespace vegetable_managment_app
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -97,11 +93,15 @@ namespace vegetable_managment_app
                 wel.Show();
                 this.Hide();
             }
-
             else
             {
                 User.ShowError();
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -30,3 +30,35 @@ D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_m
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.stock.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.order.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.bill.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.App.config
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.AssemblyReference.cache
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.bill.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.Form1.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.inventory.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.order.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.Properties.Resources.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.Registration_form.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.stock.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable_managment_app.welcome.resources
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.GenerateResource.cache
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.CoreCompileInputs.cache
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\vegetable managment app.exe.config
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\vegetable managment app.exe
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\vegetable managment app.pdb
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\FireSharp.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.csproj.CopyComplete
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.exe
+C:\Users\ICON COMPUTERS\Desktop\vegetable-app\vegetable managment app\obj\Debug\vegetable managment app.pdb

@@ -88,12 +88,8 @@ namespace vegetable_managment_app
         }
 
         private void ORDRBTN_Click(object sender, EventArgs e)
-
-
         {
-
-            DateTime dt = DateTime.Now;
-            
+            DateTime dt = DateTime.Now;   
             
             //price cal
             var a = Convert.ToInt32(prcbx.Text);

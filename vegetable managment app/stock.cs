@@ -41,16 +41,13 @@ namespace vegetable_managment_app
                 MessageBox.Show("No Internet");
             }
 
-
-
             FirebaseResponse result = client.Get(@"ItemList/");
 
-
-                Dictionary<String, item> data = JsonConvert.DeserializeObject<Dictionary<String, item>>(result.Body.ToString());
+            Dictionary<String, item> data = JsonConvert.DeserializeObject<Dictionary<String, item>>(result.Body.ToString());
                 PopulatedDataGrid(data);
-            
 
-                void PopulatedDataGrid(Dictionary<String, item> record)
+
+            void PopulatedDataGrid(Dictionary<String, item> record)
                 {
                     dataGridView1.Rows.Clear();
                     dataGridView1.Columns.Clear();
@@ -64,31 +61,29 @@ namespace vegetable_managment_app
                         dataGridView1.Rows.Add(item.Value.id, item.Value.name, item.Value.quantity);
                     }
 
-                   
-                }
-
-
-
-            
-
-
+                    foreach (var item in record)
+                    {
+                        comboBox1.Items.Add(item.Value.id);
+                        dataGridView1.Refresh();
+                    }
+                    
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            var result = client.Delete(@"ItemList/" + itemid.Text);
+            var result = client.Delete(@"ItemList/" + comboBox1.Text);
             MessageBox.Show("Item deleted");
 
-            itemid.Text = "";
+           
+            dataGridView1.Refresh();
 
-            
+
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            var result = client.Get(@"ItemList/" + itemid.Text);
-            item itm = result.ResultAs<item>();
-            itemid.Text = itm.id;
+           
 
             dataGridView1.Refresh();
         }
@@ -102,6 +97,21 @@ namespace vegetable_managment_app
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            dataGridView1.Refresh();
+        }
+
+        private void itemid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var res = client.Get(@"ItemList/" + comboBox1.Text);
+            item itm = res.ResultAs<item>();
+
+            comboBox1.Text = "";
+
             dataGridView1.Refresh();
         }
     }

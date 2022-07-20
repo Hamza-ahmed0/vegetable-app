@@ -228,6 +228,7 @@
             this.chkot.TabIndex = 53;
             this.chkot.Text = "CHECK OUT";
             this.chkot.UseVisualStyleBackColor = false;
+            this.chkot.Click += new System.EventHandler(this.chkot_Click);
             // 
             // edt
             // 
