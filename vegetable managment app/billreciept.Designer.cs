@@ -107,6 +107,7 @@
             // 
             // pnl
             // 
+            this.pnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl.Controls.Add(this.label14);
             this.pnl.Controls.Add(this.label11);
             this.pnl.Controls.Add(this.listView1);
@@ -121,9 +122,9 @@
             this.pnl.Controls.Add(this.label4);
             this.pnl.Controls.Add(this.label3);
             this.pnl.Controls.Add(this.label2);
-            this.pnl.Location = new System.Drawing.Point(-2, 26);
+            this.pnl.Location = new System.Drawing.Point(1, 26);
             this.pnl.Name = "pnl";
-            this.pnl.Size = new System.Drawing.Size(403, 432);
+            this.pnl.Size = new System.Drawing.Size(397, 432);
             this.pnl.TabIndex = 50;
             this.pnl.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Paint);
             // 
