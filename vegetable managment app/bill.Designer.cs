@@ -30,13 +30,13 @@
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtbxuser = new System.Windows.Forms.TextBox();
+            this.ordnotxt = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.custnametxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.custphntxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.listView1 = new System.Windows.Forms.ListView();
@@ -46,7 +46,7 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label5 = new System.Windows.Forms.Label();
-            this.chkot = new System.Windows.Forms.Button();
+            this.gntbtn = new System.Windows.Forms.Button();
             this.edt = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -71,17 +71,17 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "CUSTOMER INFORMATION";
             // 
-            // txtbxuser
+            // ordnotxt
             // 
-            this.txtbxuser.BackColor = System.Drawing.SystemColors.Control;
-            this.txtbxuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxuser.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxuser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.txtbxuser.Location = new System.Drawing.Point(168, 52);
-            this.txtbxuser.Multiline = true;
-            this.txtbxuser.Name = "txtbxuser";
-            this.txtbxuser.Size = new System.Drawing.Size(218, 24);
-            this.txtbxuser.TabIndex = 18;
+            this.ordnotxt.BackColor = System.Drawing.SystemColors.Control;
+            this.ordnotxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ordnotxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ordnotxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ordnotxt.Location = new System.Drawing.Point(168, 52);
+            this.ordnotxt.Multiline = true;
+            this.ordnotxt.Name = "ordnotxt";
+            this.ordnotxt.Size = new System.Drawing.Size(218, 24);
+            this.ordnotxt.TabIndex = 18;
             // 
             // label2
             // 
@@ -90,9 +90,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(25, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 16);
+            this.label2.Size = new System.Drawing.Size(74, 16);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Customer Name:";
+            this.label2.Text = "Order No:";
             // 
             // panel1
             // 
@@ -102,17 +102,17 @@
             this.panel1.Size = new System.Drawing.Size(225, 1);
             this.panel1.TabIndex = 16;
             // 
-            // textBox1
+            // custnametxt
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox1.Location = new System.Drawing.Point(169, 112);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 24);
-            this.textBox1.TabIndex = 21;
+            this.custnametxt.BackColor = System.Drawing.SystemColors.Control;
+            this.custnametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.custnametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.custnametxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.custnametxt.Location = new System.Drawing.Point(169, 112);
+            this.custnametxt.Multiline = true;
+            this.custnametxt.Name = "custnametxt";
+            this.custnametxt.Size = new System.Drawing.Size(218, 24);
+            this.custnametxt.TabIndex = 21;
             // 
             // label3
             // 
@@ -121,9 +121,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(26, 120);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 16);
+            this.label3.Size = new System.Drawing.Size(121, 16);
             this.label3.TabIndex = 20;
-            this.label3.Text = "Customer Phone:";
+            this.label3.Text = "Customer Name:";
             // 
             // panel3
             // 
@@ -133,17 +133,17 @@
             this.panel3.Size = new System.Drawing.Size(225, 1);
             this.panel3.TabIndex = 19;
             // 
-            // textBox2
+            // custphntxt
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox2.Location = new System.Drawing.Point(168, 176);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(218, 24);
-            this.textBox2.TabIndex = 24;
+            this.custphntxt.BackColor = System.Drawing.SystemColors.Control;
+            this.custphntxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.custphntxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.custphntxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.custphntxt.Location = new System.Drawing.Point(168, 176);
+            this.custphntxt.Multiline = true;
+            this.custphntxt.Name = "custphntxt";
+            this.custphntxt.Size = new System.Drawing.Size(218, 24);
+            this.custphntxt.TabIndex = 24;
             // 
             // label4
             // 
@@ -152,9 +152,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label4.Location = new System.Drawing.Point(25, 184);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 16);
+            this.label4.Size = new System.Drawing.Size(124, 16);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Customer Address:";
+            this.label4.Text = "Customer Phone:";
             // 
             // panel4
             // 
@@ -215,19 +215,20 @@
             this.label5.TabIndex = 51;
             this.label5.Text = "label5";
             // 
-            // chkot
+            // gntbtn
             // 
-            this.chkot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.chkot.FlatAppearance.BorderSize = 0;
-            this.chkot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkot.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkot.ForeColor = System.Drawing.Color.White;
-            this.chkot.Location = new System.Drawing.Point(446, 535);
-            this.chkot.Name = "chkot";
-            this.chkot.Size = new System.Drawing.Size(170, 37);
-            this.chkot.TabIndex = 53;
-            this.chkot.Text = "CHECK OUT";
-            this.chkot.UseVisualStyleBackColor = false;
+            this.gntbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.gntbtn.FlatAppearance.BorderSize = 0;
+            this.gntbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gntbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gntbtn.ForeColor = System.Drawing.Color.White;
+            this.gntbtn.Location = new System.Drawing.Point(449, 535);
+            this.gntbtn.Name = "gntbtn";
+            this.gntbtn.Size = new System.Drawing.Size(170, 37);
+            this.gntbtn.TabIndex = 53;
+            this.gntbtn.Text = "Generate Invoice";
+            this.gntbtn.UseVisualStyleBackColor = false;
+            this.gntbtn.Click += new System.EventHandler(this.chkot_Click);
             // 
             // edt
             // 
@@ -250,21 +251,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 584);
             this.Controls.Add(this.edt);
-            this.Controls.Add(this.chkot);
+            this.Controls.Add(this.gntbtn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.listView1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.custphntxt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.custnametxt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.txtbxuser);
+            this.Controls.Add(this.ordnotxt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "bill";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "bill";
             this.Load += new System.EventHandler(this.bill_Load);
             this.panel2.ResumeLayout(false);
@@ -278,13 +280,13 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtbxuser;
+        private System.Windows.Forms.TextBox ordnotxt;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox custnametxt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox custphntxt;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.ListView listView1;
@@ -294,7 +296,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button chkot;
+        private System.Windows.Forms.Button gntbtn;
         private System.Windows.Forms.Button edt;
     }
 }

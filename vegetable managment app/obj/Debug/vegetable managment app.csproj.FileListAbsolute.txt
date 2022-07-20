@@ -30,3 +30,5 @@ D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_m
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.stock.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.order.resources
 D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.bill.resources
+D:\c sharp\vegetable managment app\vegetable managment app\obj\Debug\vegetable_managment_app.billreciept.resources
+D:\c sharp\vegetable managment app\vegetable managment app\bin\Debug\PrinterSetting.dll

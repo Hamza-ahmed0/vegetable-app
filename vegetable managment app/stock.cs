@@ -76,21 +76,22 @@ namespace vegetable_managment_app
 
         private void button5_Click(object sender, EventArgs e)
         {
-            var result = client.Delete(@"ItemList/" + itemid.Text);
-            MessageBox.Show("Item deleted");
+          
 
-            itemid.Text = "";
+            foreach(DataGridViewRow eachitem in dataGridView1.SelectedRows)
+            {
+                dataGridView1.Rows.RemoveAt(eachitem.Index);
+                var result = client.Delete(@"ItemList/" + eachitem.Index);
+                MessageBox.Show("Item deleted");
+            }
 
-            
+
+
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            var result = client.Get(@"ItemList/" + itemid.Text);
-            item itm = result.ResultAs<item>();
-            itemid.Text = itm.id;
-
-            dataGridView1.Refresh();
+           
         }
 
         private void button2_Click(object sender, EventArgs e)

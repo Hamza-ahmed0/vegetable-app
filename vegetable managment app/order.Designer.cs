@@ -360,6 +360,7 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "order";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "order";
             this.Load += new System.EventHandler(this.order_Load);
             this.panel2.ResumeLayout(false);
